@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>SJS ESTUDOS - Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="logo">SJS<br>ESTUDOS</div>
+    <img src="images/pngegg (1).png" alt="Menu" class="menu-icon">
+  </header>
+
+  <main>
+    <h1>Acessar conta</h1>
+
+   <form>
+  <div class="input-group">
+  <label for="perfil">Selecione seu perfil</label>
+  <select id="perfil" name="perfil" required>
+    <option value="" disabled selected hidden>Selecione</option>
+    <option value="aluno">Aluno</option>
+    <option value="professor">Professor</option>
+    <option value="administrador">Administrador</option>
+  </select>
+</div>
+
+
+  <div class="input-group">
+    <input type="text" id="login" name="login" placeholder="Matrícula, E-mail ou Celular" required>
+  </div>
+
+  <button type="submit">Próxima</button>
+</form>
+  </main>
+
+</body>
+</html>
